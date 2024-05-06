@@ -27,10 +27,11 @@ Para configurar seu ambiente de desenvolvimento, siga estas etapas:
    
 3. Configure suas credenciais do TradingView no seu ambiente:
 
-   ```bash
-export TRADINGVIEW_USERNAME='seu_usuario'
-export TRADINGVIEW_PASSWORD='sua_senha'
+Para proteger suas credenciais e ao mesmo tempo permitir que o script acesse a API do TradingView, configure as variáveis de ambiente no seu sistema. No Windows, você pode configurar através do Painel de Controle ou diretamente no terminal (o terminal precisa ser reiniciado após a configuração). No macOS e Linux, você pode adicionar estas linhas ao seu arquivo .bashrc, .zshrc, ou similar, dependendo do shell que você usa:
 
+   ```bash
+	export TRADINGVIEW_USERNAME='seu_usuario'
+	export TRADINGVIEW_PASSWORD='sua_senha'
 
 # Estratégia de Trading
 
