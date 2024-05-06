@@ -32,7 +32,7 @@ Para proteger suas credenciais e ao mesmo tempo permitir que o script acesse a A
    ```bash
 	export TRADINGVIEW_USERNAME='seu_usuario'
 	export TRADINGVIEW_PASSWORD='sua_senha'
-
+ ```
 # Estratégia de Trading
 
 ## Indicadores Utilizados
