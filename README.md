@@ -58,7 +58,7 @@ Inclinação da MME: Calculada como a diferença entre o último valor da MME e 
 
 Estocástico Lento (STOCHd): Média móvel de 3 períodos do %K (estocástico rápido).
 
-Índice Direcional Médio (ADX): Mede a força da tendência.
+Índice Direcional Médio (ADX): Mede a força da tendência. Um ADX maior que 25 é considerado uma tendência significativa. 
 
 Lógica dos Sinais de Trading
 
@@ -68,8 +68,7 @@ Sinal de Venda: Gerado quando o STOCHd está acima de 80 (sobrecomprado), o pre�
 
 ## tvDatafeed 
 
-A estratégia pode gerar sinais nos seguintes timeframes suportados pelo tvDatafeed: 
-
+A estratégia pode gerar sinais nos seguintes timeframes suportados pelo tvDatafeed, trocando o valor de interval na função tv.get_hist
 
 Interval.in_1_minute
 
