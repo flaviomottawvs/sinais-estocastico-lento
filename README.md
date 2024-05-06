@@ -33,13 +33,13 @@ Para configurar seu ambiente de desenvolvimento, siga estas etapas:
    git clone https://github.com/flaviomottawvs/sinais-estocastico-lento.git
    cd sinais-estocastico-lento
 
-2. Instale as dependências no seu ambiente de trabalho Python 3: 
+2. Instale as dependências no seu ambiente de trabalho Python 3.8.8: 
 
    ```bash
-   pip install -r requirements.txt
+   python3.8 -m pip install -r requirements.txt
    ```
    
-Caso encontre problemas na instalação da TvDatafeed, clone essa biblioteca de outro repositório: 
+Clone a TvDatafeed desse repositório: 
 
    ```bash
    pip install --upgrade --no-cache-dir git+https://github.com/baselsm/tvdatafeed.git
