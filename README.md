@@ -8,19 +8,19 @@ Este projeto gera sinais de compra e venda baseados em uma estratégia que depen
 - **Pandas**: Biblioteca para manipulação de dados.
 - **NumPy**: Biblioteca para operações matemáticas.
 - **pandas_ta**: Biblioteca para cálculo de indicadores técnicos.
-- **TvDatafeed**: Biblioteca para integração com a API do TradingView para coleta de dados históricos de preços.\
+- **TvDatafeed**: Biblioteca para integração com a API do TradingView para coleta de dados históricos de preços.
 - **Excel**: utilizado em conjunto com o Pandas para se obter a lista de ativos do índice IBOVESPA.
 
 
 ## Estrutura do Projeto
 
 Para que este projeto funcione corretamente, é importante manter uma estrutura específica de diretórios e arquivos. Certifique-se de que seu ambiente de trabalho esteja organizado conforme descrito abaixo:
-
+```
 ESTRATEGIA_ESTOCASTICO_LENTO/
 │
 ├── slow_stoch.ipynb # Notebook Jupyter contendo o código principal da estratégia.
 └── tickers_ibov.xlsx # Planilha Excel com a lista de tickers a serem analisados.
-
+```
 
 
 
