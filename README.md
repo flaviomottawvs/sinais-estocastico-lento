@@ -46,7 +46,9 @@ Estocástico Lento (STOCHd): Média móvel de 3 períodos do %K (estocástico r�
 Índice Direcional Médio (ADX): Mede a força da tendência.
 
 Lógica dos Sinais de Trading
+
 Sinal de Compra: Gerado quando o STOCHd está abaixo de 20 (sobrevendido), o preço está acima da MME80 e a MME80 está inclinada para cima com ADX maior que 25.
+
 Sinal de Venda: Gerado quando o STOCHd está acima de 80 (sobrecomprado), o preço está abaixo da MME80 e a MME80 está inclinada para baixo com ADX maior que 25.   
 
 
