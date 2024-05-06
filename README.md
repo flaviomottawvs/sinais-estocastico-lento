@@ -36,10 +36,10 @@ Para configurar seu ambiente de desenvolvimento, siga estas etapas:
 2. Instale as dependências no seu ambiente de trabalho Python 3: 
 
    ```bash
-   pip install pandas numpy pandas_ta TvDatafeed
+   pip install -r requirements.txt
    ```
    
-Ou Clone a biblioteca TvDatafeed de outro repositório: 
+Caso encontre problemas na instalação da TvDatafeed, clone essa biblioteca de outro repositório: 
 
    ```bash
    pip install --upgrade --no-cache-dir git+https://github.com/baselsm/tvdatafeed.git
