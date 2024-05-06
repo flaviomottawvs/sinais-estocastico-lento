@@ -62,7 +62,7 @@ Para proteger suas credenciais e ao mesmo tempo permitir que o script acesse a A
 
 MME de 80 períodos: Média móvel exponencial calculada sobre os preços de fechamento.
 
-Inclinação da MME (MME Slope): Calculada como a diferença entre o último valor da MME e o valor dessa MME 40 barras antes (Slope Window é a quantidade de barras usadas para calcular a inclinação dessa MME), dividido pela Slope Window, para normalização. A função hiperbólica tangente (tanh) é usada para transformar a inclinação bruta em uma escala que fica entre -1 e 1. Apesar de não validar sinais de compra ou venda, pode ser usado para verificar possíveis mudanças no direcional da média móvel exponencial. 
+Inclinação da MME (MME Slope): Calculada como a diferença entre o último valor da MME e o valor dessa MME 40 barras antes (40 é o valor arbitrário da Slope Window, que é a quantidade de barras usadas para calcular a inclinação dessa MME), dividido pela Slope Window, para normalização. A função hiperbólica tangente (tanh) é usada para transformar a inclinação bruta em uma escala que fica entre -1 e 1. Apesar de não validar sinais de compra ou venda, pode ser usado para verificar possíveis mudanças no direcional da média móvel exponencial (o ativo pode estar acima da média móvel exponencial por exemplo, mas com essa diferença diminuindo) 
 
 Estocástico Lento (STOCHd): Média móvel de 3 períodos do %K (estocástico rápido). 
 
